@@ -1,16 +1,17 @@
 <template>
     <Header />
-    <div>首页</div>
+    <SearcheBar />
 </template>
 
 <script>
-import './index.less'
-import Header from '@/components/Header/index.vue'
 import { defineComponent } from 'vue'
+import Header from '@/components/Header/index.vue'
+import SearcheBar from './components/SearchBar/index.vue'
 
 export default defineComponent({
     components: {
         Header,
+        SearcheBar,
     },
     setup() {
         

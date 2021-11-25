@@ -1,8 +1,8 @@
 const routes = [
     {
-        path: '/',
+        path: '/changecity',
         component: () => import('../index.vue'),
-        name: 'Home',
+        name: 'ChangeCity',
     },
 ]
 
