@@ -1,12 +1,17 @@
 import { 
     createRouter, 
     createWebHistory,
+    RouteRecordRaw
 } from 'vue-router'
 
-const routes = [];
-const importRoutes = import.meta.globEager('../views/**/routes.js');
+interface IModule {
+    default: Array<RouteRecordRaw>
+}
+
+const routes: Array<RouteRecordRaw> = [];
+const importRoutes = (<any>(import.meta)).globEager('../views/**/routes.js');
 Object.values(importRoutes).forEach((module) => {
-  routes.push(...module.default);
+    routes.push(...(<IModule>module).default);
 });
 
 // routes.push({

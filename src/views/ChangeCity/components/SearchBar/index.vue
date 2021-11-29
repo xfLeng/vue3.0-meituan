@@ -23,6 +23,7 @@ import './index.less'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({
+    name: 'SearchBar',
     setup() {
         const searchText = ref('')
 

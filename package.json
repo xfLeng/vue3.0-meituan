@@ -1,22 +1,22 @@
 {
-  "name": "vue3.0-meituan",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "dependencies": {
-    "@vitejs/plugin-vue": "^1.9.4",
-    "axios": "^0.21.4",
-    "element-plus": "^1.2.0-beta.3",
-    "less": "^4.1.2",
-    "vue": "^3.2.22",
-    "vue-router": "^4.0.12",
-    "vuex": "^4.0.2"
-  },
-  "devDependencies": {
-    "@types/node": "^16.11.9",
-    "@vue/compiler-sfc": "^3.0.4",
-    "vite": "^2.4.4"
-  }
+    "name": "vue3.0-meituan",
+    "version": "0.0.0",
+    "scripts": {
+        "start": "vite",
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@vitejs/plugin-vue": "^1.9.4",
+        "axios": "^0.21.4",
+        "element-plus": "1.2.0-beta.4",
+        "less": "^4.1.2",
+        "vue": "^3.2.22",
+        "vue-router": "^4.0.12",
+        "vuex": "^4.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.9",
+        "@vue/compiler-sfc": "^3.0.4",
+        "vite": "^2.4.4"
+    }
 }
