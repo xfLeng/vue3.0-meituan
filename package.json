@@ -17,6 +17,8 @@
   "devDependencies": {
     "@types/node": "^16.11.9",
     "@vue/compiler-sfc": "^3.0.4",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "rollup-plugin-visualizer": "^5.5.2",
     "vite": "^2.4.4"
   }
 }
